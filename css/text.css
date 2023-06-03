@@ -1,0 +1,509 @@
+@charset "UFT-8";
+
+*{box-sizing: border-box;}
+
+section.header{
+  display: flex;
+  flex-direction: row;
+  
+  padding-top: 0;
+  justify-content: space-between;   
+}
+
+.header article{
+  display: flex;
+  flex-direction: row;
+}
+
+.header article img{
+  height: 5vh;
+  align-self: center;
+  margin:10px;
+}
+li{
+  list-style-type: none;
+}
+
+.sidenav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sidenav ul a{
+      padding: 10px;
+      text-decoration: none;
+}
+
+.sidenav ul li:first-child a{
+      font-weight: bolder;
+      color: black;
+}
+
+.sidenav ul li:not(:first-child) a{
+  color:#D3D3D3;
+  font-size: 0.7rem;
+}
+
+
+.video video{
+    position: absolute;
+    object-fit: cover;
+    height: 70vh;
+    width: 99%;
+    z-index: -1;
+}
+
+.video h1{
+        text-align: center;
+        padding-top: 100px;    
+        color: black;
+        font-size: 3rem;
+}
+
+.video button {
+    background-color: black;
+    border-radius: 30px;
+    width: 15%;
+    height: 10vh;
+    margin-left: 550px;
+}
+
+.video button a{
+    color: #dcdcdc;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.video hr{
+    position: absolute;
+    background-color:white;
+    width: 20%;
+    border: 2px solid white;
+    top: 30%;
+    left: 40%;
+}
+
+/* sect2*/
+
+.bloc1{
+    margin-top: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 90px;
+    height: 100vh;
+}
+
+.bloc2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 140%;
+    height: 25vh;
+  }
+  .bloc2 p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .bloc2 hr{
+    width: 40%;
+  }
+  .bloc2 p{
+    font-size: 0.5rem;
+  }
+.numero0{
+    font-size: 0.7rem;
+    position: relative;
+    top: -15%;
+}
+.numero1{
+    font-size: 3rem;
+}
+.numero2{
+    font-size: 0.7rem;
+}
+  .sousbloc2{
+    text-align: center;
+  }
+.sousbloc2   ul  hr{
+    width: 100%;
+        position: relative;
+        background-color: black;
+}
+  
+
+  .bloc2 h2{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+
+  .bloc2 hr{
+    background-color: white;
+  }
+
+.sousbloc2  ul {
+    padding: 10px;
+    padding-top: 20px;
+    margin: 0;
+    background-color:whitesmoke;
+    text-align: center;
+    height: 35vh;
+    width: 140%;  
+}
+
+.sousbloc2 ul li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+    border-bottom: 3px solid black;
+    line-height: 5vh;
+}
+
+.free{
+    background-color: rgb(8, 245, 8);
+    color: white;
+    border-radius: 70%;
+    padding: 5px;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+/* sect2 bloc2*/
+
+
+
+.bloc3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 140%;
+    height: 25vh;
+  }
+  
+
+  .bloc3 hr{
+    width: 30%;
+    position: relative;
+    left: 20%;
+  }
+  .bloc3 p{
+    font-size: 0.5rem;
+  }
+.numero0{
+    font-size: 0.7rem;
+    position: relative;
+    top: -15%;
+}
+.numero1{
+    font-size: 3rem;
+}
+.numero2{
+    font-size: 0.7rem;
+}
+  .sousbloc4{
+    text-align: center;
+  }
+.sousbloc4  ul  hr{
+    width: 100%;
+        position: relative;
+        background-color: black;
+}
+  
+
+  .bloc3 h2{
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 10px;
+    position: relative;
+    left: 20%;
+   
+  }
+
+  .bloc3 hr{
+    background-color: white;
+  }
+
+  .sousbloc4  ul{
+    padding: 10px;
+    padding-top: 20px;
+    margin: 0;
+    background-color:whitesmoke;
+    text-align: center;
+    height: 55vh;  
+    width: 140%; 
+}
+
+.sousbloc4 ul li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.7rem;
+    border-bottom: 3px solid black;
+    line-height: 5vh;
+}
+
+.free{
+    background-color: rgb(8, 245, 8);
+    color: white;
+    border-radius: 70%;
+    padding: 5px;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.most{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: green;
+    font-size: 0.6rem;
+    color: white;
+    text-align: center;
+    float: right;
+    left: 45%;
+}
+.most span{
+    display: block;
+    padding-top: 20px;
+}
+
+/*sect3*/
+
+.bloc5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin-top: 100px;
+}
+.bloc5 section{
+        width: 47%;
+        flex-wrap: wrap;
+}
+
+.bloc5 h3{
+    text-align: start;
+    padding-left: 10px;
+   font-weight: bold;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 0.87rem;
+   border-bottom: 4px solid black;
+   width: 55%;
+}
+
+.bloc5 p{
+    font-size: 0.79rem;
+    padding-left: 10px;
+}
+
+.bloc5 hr{
+     position: relative;
+    width: 45%;
+    background-color: black;
+    right: 27%;
+}
+
+hr.hr1{
+    position: relative;
+    width: 65%;
+    background-color: black;
+    right: 17%;
+}
+.footer{
+    background-color: rgb(9, 8, 8);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: start;
+    line-height: vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.button{
+    color: black;
+  
+    background-color:blue;
+    font-weight: bolder; 
+}
+
+.footer article h4{
+    padding-left: 40px;
+}
+
+footer button{
+    background-color: grey;
+    border-radius: 30px;
+    width: 60%;
+    height: 10vh;
+    margin-top: 25px;
+}
+
+footer button a{
+    color: red;
+}
+
+
+
+
+    /*page 2*/
+
+ @media screen and (max-width: 500px)  {    
+  
+ section.header{  
+  width: 90%;
+}
+ body{
+  overflow-x: hidden;
+ }
+  /* Sidenav menu */
+.sidenav {
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: -250px;
+background-color: #e8e8e8;
+padding-top: 60px;
+transition: left 0.5s ease;
+}
+
+
+.sidenav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+.sidenav ul li:not(:first-child) a{
+color: #111;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #111;
+}
+
+/* Active class */
+.sidenav.active {
+left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+}
+
+.sidenav ul{
+display: block;
+}
+
+.burger-icon span {
+display: block;
+width: 35px;
+height: 5px;
+background-color: black;
+margin: 6px 0;
+}
+
+.video video{
+object-fit: cover;
+height: 20vh;
+width: 95%;
+}
+.video h1{
+padding-top: 40px;
+font-size: 0.7rem; 
+padding-right:-70px;
+}
+.video hr{
+
+margin-top: -380px; 
+}
+
+
+.video button{   
+margin-left: 150px;
+height: 5vh;
+font-size: 0.6rem; 
+width: 20%;  
+}
+.bloc1{
+display: block;
+margin-top: 50px;
+padding: 0px;
+text-align: center;
+margin-left: 50px;
+
+}
+
+.sousbloc1{
+margin-bottom:40px ;
+width: 60%;
+}
+
+.sousbloc3{
+width: 60%;
+margin-right: 50px;
+}
+
+.bloc3 span{
+  position: relative;
+  left: 60px;
+}
+
+
+
+.bloc5{
+display: block;
+margin-top: 390px;
+margin-bottom: 590px;
+width: 140%;
+margin-left: 50px;
+}
+.footer{
+text-align: center;
+display: block;
+width: 95%;
+font-size: 1rem;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+.footer button{
+height: 5vh;
+width: 30%;
+font-size: 0.6rem;
+}
+.footer button a{
+  text-decoration: none;
+  color: white;
+
+}
+}
+
+ 
+
+    
